@@ -1,0 +1,22 @@
+{
+	"name": "dive-club",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier --write .",
+		"lint": "eslint --fix . --ext .js",
+		"watch": "sass --watch ./src/sass/:./src/css"
+	},
+	"keywords": [],
+	"author": "Rodrigo Andre Gutierrez <rodrigoandregutierrez@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"prettier": "^3.2.5",
+		"sass": "^1.75.0",
+		"standard": "^17.1.0"
+	},
+	"eslintConfig": {
+		"extends": "./node_modules/standard/eslintrc.json"
+	}
+}
